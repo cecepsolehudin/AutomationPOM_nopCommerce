@@ -1,0 +1,85 @@
+#Register
+link_register: //a[.='Register']
+txt_firstname: //input[@id='FirstName']
+txt_lastname: //input[@id='LastName']
+select_day: name = DateOfBirthDay
+select_month: //select[@name='DateOfBirthMonth']
+select_year: //select[@name='DateOfBirthYear']
+txt_email: //input[@id='Email']
+txt_company: //input[@id='Company']
+txt_password: //input[@id='Password']
+txt_confirmpwd: //input[@id='ConfirmPassword']
+btn_register: //button[@id='register-button']
+btn_continue: //a[.='Continue']
+
+#Search
+txt_search: small-searchterms
+apple_macbook: //span[.='Apple MacBook Pro 13-inch']
+apple_icam: //span[.='Apple iCam']
+samsung_series: //span[.='Samsung Series 9 NP900X4C Premium Ultrabook']
+lenovo_ideacentre: //span[.='Lenovo IdeaCentre 600 All-in-One PC']
+lenovo_thinkpad: //a[.='Lenovo Thinkpad X1 Carbon Laptop']
+asus_n551: //span[.='Asus N551JK-XO076H Laptop']
+adobe_cs4: //span[.='Adobe Photoshop CS4']
+nikon_d5500: //span[.='Nikon D5500 DSLR']
+leica_t: //span[.='Leica T Mirrorless Digital Camera']
+htc_one_m8: //span[.='HTC One M8 Android L 5.0 Lollipop']
+htc_one_mini: //span[.='HTC One Mini Blue']
+nokia_lumia: //span[.='Nokia Lumia 1020']
+beats_pill: //span[.='Beats Pill 2.0 Wireless Speaker']
+portable_speaker: //span[.='Portable Sound Speakers']
+universal_tablet: //span[.='Universal 7-8 Inch Tablet Cover']
+
+#Shop As Guest
+sel_computer_build: (//button[@class='button-2 product-box-add-to-cart-button'])[1]
+
+drp_ram: //select[@id="product_attribute_2"]
+rad_hdd: //input[@value='7']
+rad_os: //input[@value='9']
+chk_acrobat: //input[@value='11']
+chk_total_com: //input[@value='12']
+but_add_cart: //button[@class='button-1 add-to-cart-button']
+link_shop_cart: //a[.='shopping cart']
+
+drp_gift: //select[@id="checkout_attribute_1"]
+chk_agree: //input[@id='termsofservice']
+but_checkout: //button[@id='checkout']
+btn_checkoutguest: //button[@class='button-1 checkout-as-guest-button']
+
+guest_firstname: //input[@id='BillingNewAddress_FirstName']
+guest_lastname: //input[@id='BillingNewAddress_LastName']
+guest_email: //input[@id='BillingNewAddress_Email']
+guest_company: //input[@id='BillingNewAddress_Company']
+guest_country: //select[@id='BillingNewAddress_CountryId']
+guest_state: //select[@id='BillingNewAddress_StateProvinceId']
+guest_city: //input[@id='BillingNewAddress_City']
+guest_address1: //div[8]/input[1]
+guest_address2: //div[9]/input[1]
+guest_postal: //input[@id='BillingNewAddress_ZipPostalCode']
+guest_phone: //input[@id='BillingNewAddress_PhoneNumber']
+guest_faxnumber: //input[@id='BillingNewAddress_FaxNumber']
+btn_continue: //button[4]
+
+btn_nextday: //input[@value='Next Day Air___Shipping.FixedByWeightByTotal']
+btn_continue2: //button[@class='button-1 shipping-method-next-step-button']
+
+btn_credit: //input[@value='Payments.Manual']
+btn_continue3: //button[@class='button-1 payment-method-next-step-button']
+
+sel_credit: //select[@id='CreditCardType']
+txt_cardholder: //input[@id='CardholderName']
+txt_cardnumber: //input[@id='CardNumber']
+sel_expiremonth: //select[@id='ExpireMonth']
+sel_expireyear: //select[@id='ExpireYear']
+txt_cardcode: //input[@id='CardCode']
+btn_continue4: //button[@class='button-1 payment-info-next-step-button']
+
+btn_continue5: //button[@class='button-1 confirm-order-next-step-button']
+btn_continue6: //button[@class='button-1 order-completed-continue-button']
+
+#LogIn
+link_login: //a[.='Log in']
+txt_emaillogin: //input[@id='Email']
+txt_pwdlogin: //input[@id='Password']
+btn_login: //button[@class='button-1 login-button']
+link_logout: //a[.='Log out']

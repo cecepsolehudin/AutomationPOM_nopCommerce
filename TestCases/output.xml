@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220725 11:45:09.325" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Klik Digital Sinergi\.vscode\extensions\robocorp.robotframework-lsp-0.49.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Choose RAM">
+<arg>5</arg>
+<msg timestamp="20220725 11:45:11.246" level="FAIL">No keyword with name 'Choose RAM' found.</msg>
+<status status="FAIL" starttime="20220725 11:45:11.246" endtime="20220725 11:45:11.246"/>
+</kw>
+<kw name="Choose HDD">
+<status status="NOT RUN" starttime="20220725 11:45:11.249" endtime="20220725 11:45:11.249"/>
+</kw>
+<kw name="Choose OS">
+<status status="NOT RUN" starttime="20220725 11:45:11.251" endtime="20220725 11:45:11.251"/>
+</kw>
+<kw name="Choose Software">
+<status status="NOT RUN" starttime="20220725 11:45:11.260" endtime="20220725 11:45:11.260"/>
+</kw>
+<kw name="Click Button Add Cart">
+<status status="NOT RUN" starttime="20220725 11:45:11.266" endtime="20220725 11:45:11.266"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220725 11:45:11.266" endtime="20220725 11:45:11.266"/>
+</kw>
+<kw name="Click Shoping Cart">
+<status status="NOT RUN" starttime="20220725 11:45:11.271" endtime="20220725 11:45:11.271"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220725 11:45:11.271" endtime="20220725 11:45:11.271"/>
+</kw>
+<status status="PASS" starttime="20220725 11:45:09.365" endtime="20220725 11:45:12.176"/>
+</kw>
+<status status="PASS" starttime="20220725 11:45:09.364" endtime="20220725 11:45:12.177"/>
+</test>
+<status status="PASS" starttime="20220725 11:45:09.329" endtime="20220725 11:45:12.179"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
